@@ -35,14 +35,14 @@
 - **RG26** : Une réservation est valide si des places sont disponibles.
 - **RG27** : Une réservation peut contenir plusieurs billets (escales).
 - **RG28** : Une réservation doit concerner un ou plusieurs vols.
+- **RG29** : Une réservation doit être associée à un client existant.
+- **RG30** : Une réservation doit avoir un aéroport de départ.
+- **RG31** : Une réservation doit avoir un aéroport d’arrivée.
+- **RG32** : Une réservation doit inclure le choix d’une ou plusieurs places.
 - **RG33** : Une réservation doit avoir un prix.
-- **RG30** : Un réservation doit avoir un aéroport de départ.
-- **RG31** : Un réservation doit avoir un aéroport d’arrivée.
-- **RG42** : Un réservation doit avoir une heure de départ.
-- **RG43** : Un réservation doit avoir une heure d’arrivée.
-- **RG34** : Une réservation doit inclure le choix d’une ou plusieurs places.
-- **RG35** : Le client doit recevoir un e-mail contenant son billet après la réservation.
-- **RG36** : Une réservation peut inclure une ou plusieurs escales.
+- **RG34** : Le client doit recevoir un e-mail contenant son billet après la réservation.
+- **RG35** : Une réservation peut inclure une ou plusieurs escales.
+- **RG36** : Une réservation ne peut pas être créée si le vol est complet.
 
 ---
 
@@ -56,9 +56,9 @@
 
 ---
 
-# Compagnie Aerienne
+## Compagnie Aérienne
 
-- **RG47** : Une compagnie aériennne envoie des informations concernant ses vols.
+- **RG59** : Une compagnie aérienne doit envoyer des informations concernant ses vols.
 
 ---
 
@@ -76,3 +76,21 @@
 - **RG56** : Un aéroport doit avoir un nom.
 - **RG57** : Un aéroport doit avoir des compagnies aériennes.
 - **RG58** : Un aéroport peut avoir des terminaux.
+
+---
+
+## Vols
+
+- **RG63** : Un vol doit avoir une date et une heure de départ.
+- **RG64** : Un vol doit avoir une date et une heure d’arrivée.
+- **RG65** : Un vol doit être associé à un aéroport de départ et un aéroport d’arrivée.
+- **RG66** : Un vol doit avoir un nombre maximum de places disponibles.
+
+---
+
+## Billets
+
+- **RG67** : Un billet est associé à une réservation.
+- **RG68** : Un billet est lié à un passager.
+- **RG69** : Un billet doit inclure le numéro de siège.
+- **RG70** : Un billet doit inclure un prix.
