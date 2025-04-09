@@ -48,49 +48,42 @@
 
 ## Passagers
 
-- **RG47** : Un passager peut embarquer dans un vol.
-- **RG48** : Un passager doit avoir son nom sur son billet.
-- **RG49** : Un passager doit avoir son prénom sur son billet.
-- **RG50** : Un passager doit avoir son passeport.
-- **RG51** : Un passager doit avoir une place unique.
+- **RG37** : Un passager peut embarquer dans un vol.
+- **RG38** : Un passager doit avoir son nom sur son billet.
+- **RG39** : Un passager doit avoir son prénom sur son billet.
+- **RG40** : Un passager doit avoir son passeport.
+- **RG41** : Un passager doit avoir une place unique.
 
 ---
 
 ## Compagnie Aérienne
 
-- **RG59** : Une compagnie aérienne doit envoyer des informations concernant ses vols.
+- **RG42** : Une compagnie aérienne doit envoyer des informations concernant ses vols.
 
 ---
 
 ## Avion
 
-- **RG52** : Un avion doit être associé à une compagnie aérienne.
-- **RG53** : Un avion doit proposer des places uniques.
-- **RG54** : Un avion doit avoir des réservations disponibles.
+- **RG43** : Un avion doit être associé à une compagnie aérienne.
+- **RG44** : Un avion doit proposer des places uniques.
+- **RG45** : Un avion doit avoir des réservations disponibles.
 
 ---
 
 ## Aéroport
 
-- **RG55** : Un aéroport doit avoir une ville.
-- **RG56** : Un aéroport doit avoir un nom.
-- **RG57** : Un aéroport doit avoir des compagnies aériennes.
-- **RG58** : Un aéroport peut avoir des terminaux.
+- **RG46** : Un aéroport doit avoir une ville.
+- **RG47** : Un aéroport doit avoir un nom.
+- **RG48** : Un aéroport doit avoir des compagnies aériennes.
+- **RG49** : Un aéroport peut avoir des terminaux.
 
 ---
 
 ## Vols
 
-- **RG63** : Un vol doit avoir une date et une heure de départ.
-- **RG64** : Un vol doit avoir une date et une heure d’arrivée.
-- **RG65** : Un vol doit être associé à un aéroport de départ et un aéroport d’arrivée.
-- **RG66** : Un vol doit avoir un nombre maximum de places disponibles.
+- **RG50** : Un vol doit avoir une date et une heure de départ.
+- **RG51** : Un vol doit avoir une date et une heure d’arrivée.
+- **RG52** : Un vol doit être associé à un aéroport de départ et un aéroport d’arrivée.
+- **RG53** : Un vol doit avoir un nombre maximum de places disponibles.
 
 ---
-
-## Billets
-
-- **RG67** : Un billet est associé à une réservation.
-- **RG68** : Un billet est lié à un passager.
-- **RG69** : Un billet doit inclure le numéro de siège.
-- **RG70** : Un billet doit inclure un prix.
