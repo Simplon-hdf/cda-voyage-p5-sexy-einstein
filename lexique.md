@@ -1,10 +1,10 @@
 # Lexique
 
 ### CLIENT
-**Définition** : Une personne ou une entreprise qui utilise l'application pour chercher et réserver des vols.
+**Définition** : Une personne qui utilise l'application pour chercher et réserver des vols.
 
 ### RÉSERVATION
-**Définition** : Une demande officielle pour bloquer une ou plusieurs places sur un ou plusieurs vols, pour un ou plusieurs passagers.
+**Définition** : Une demande officielle pour bloquer une ou plusieurs places sur un ou plusieurs vols, pour un passager.
 
 ### PASSAGER
 **Définition** : Une personne qui voyage sur un vol, qu'elle ait ou non effectué la réservation.
