@@ -35,44 +35,55 @@
 - **RG26** : Une réservation est valide si des places sont disponibles.
 - **RG27** : Une réservation peut contenir plusieurs billets (escales).
 - **RG28** : Une réservation doit concerner un ou plusieurs vols.
+- **RG29** : Une réservation doit être associée à un client existant.
+- **RG30** : Une réservation doit avoir un aéroport de départ.
+- **RG31** : Une réservation doit avoir un aéroport d’arrivée.
+- **RG32** : Une réservation doit inclure le choix d’une ou plusieurs places.
 - **RG33** : Une réservation doit avoir un prix.
-- **RG30** : Un réservation doit avoir un aéroport de départ.
-- **RG31** : Un réservation doit avoir un aéroport d’arrivée.
-- **RG42** : Un réservation doit avoir une heure de départ.
-- **RG43** : Un réservation doit avoir une heure d’arrivée.
-- **RG34** : Une réservation doit inclure le choix d’une ou plusieurs places.
-- **RG35** : Le client doit recevoir un e-mail contenant son billet après la réservation.
-- **RG36** : Une réservation peut inclure une ou plusieurs escales.
+- **RG34** : Le client doit recevoir un e-mail contenant son billet après la réservation.
+- **RG35** : Une réservation peut inclure une ou plusieurs escales.
+- **RG36** : Une réservation ne peut pas être créée si le vol est complet.
 
 ---
 
 ## Passagers
 
-- **RG47** : Un passager peut embarquer dans un vol.
-- **RG48** : Un passager doit avoir son nom sur son billet.
-- **RG49** : Un passager doit avoir son prénom sur son billet.
-- **RG50** : Un passager doit avoir son passeport.
-- **RG51** : Un passager doit avoir une place unique.
+- **RG37** : Un passager peut embarquer dans un vol.
+- **RG38** : Un passager doit avoir son nom sur son billet.
+- **RG39** : Un passager doit avoir son prénom sur son billet.
+- **RG40** : Un passager doit avoir son passeport.
+- **RG41** : Un passager doit avoir une place unique.
 
 ---
 
-# Compagnie Aerienne
+## Compagnie Aérienne
 
-- **RG47** : Une compagnie aériennne envoie des informations concernant ses vols.
+- **RG42** : Une compagnie aérienne doit envoyer des informations concernant ses vols.
 
 ---
 
 ## Avion
 
-- **RG52** : Un avion doit être associé à une compagnie aérienne.
-- **RG53** : Un avion doit proposer des places uniques.
-- **RG54** : Un avion doit avoir des réservations disponibles.
+- **RG43** : Un avion doit être associé à une compagnie aérienne.
+- **RG44** : Un avion doit proposer des places uniques.
+- **RG45** : Un avion doit avoir des réservations disponibles.
 
 ---
 
 ## Aéroport
 
-- **RG55** : Un aéroport doit avoir une ville.
-- **RG56** : Un aéroport doit avoir un nom.
-- **RG57** : Un aéroport doit avoir des compagnies aériennes.
-- **RG58** : Un aéroport peut avoir des terminaux.
+- **RG46** : Un aéroport doit avoir une ville.
+- **RG47** : Un aéroport doit avoir un nom.
+- **RG48** : Un aéroport doit avoir des compagnies aériennes.
+- **RG49** : Un aéroport peut avoir des terminaux.
+
+---
+
+## Vols
+
+- **RG50** : Un vol doit avoir une date et une heure de départ.
+- **RG51** : Un vol doit avoir une date et une heure d’arrivée.
+- **RG52** : Un vol doit être associé à un aéroport de départ et un aéroport d’arrivée.
+- **RG53** : Un vol doit avoir un nombre maximum de places disponibles.
+
+---
