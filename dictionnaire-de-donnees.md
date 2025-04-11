@@ -25,10 +25,10 @@
 
 | Attribut | Type | Description |
 |----------|------|-------------|
-| passenger_id | UUID | Identifiant unique du passager |
-| first_name | Texte | Prénom du passager |
-| last_name | Texte | Nom du passager |
-| date_of_birth | Date| Date de naissance du passager |
+| person_id | UUID | Identifiant unique de la personne |
+| first_name | Texte | Prénom de la personne |
+| last_name | Texte | Nom de la personne |
+| date_of_birth | Date | Date de naissance de la personne |
 | passport_country | Texte | Pays du passeport |
 | passport_number | Texte | Numéro de passeport |
 
