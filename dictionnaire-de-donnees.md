@@ -18,6 +18,7 @@
 | public_code | Texte | Identifiant unique de la réservation pour le passager|
 | reference | Texte | Référence unique de la réservation |
 | customer_id | UUID | Identifiant du client associé |
+| passenger_id | UUID | Identifiant du passager associé |
 | booking_date | Date | Date de la réservation |
 | price | Entier | Prix total de la réservation |
 
