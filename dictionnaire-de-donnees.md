@@ -15,6 +15,7 @@
 | Attribut | Type | Description |
 |----------|------|-------------|
 | booking_id | UUID | Identifiant unique de la réservation |
+| public_code | Texte | Identifiant unique de la réservation pour le passager|
 | reference | Texte | Référence unique de la réservation |
 | customer_id | UUID | Identifiant du client associé |
 | booking_date | Date | Date de la réservation |
