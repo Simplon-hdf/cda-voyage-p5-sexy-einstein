@@ -30,7 +30,7 @@
 | first_name | Texte | Prénom du passager |
 | last_name | Texte | Nom du passager |
 | date_of_birth | Date| Date de naissance du passager |
-| passport_country | Texte | Numéro de passeport |
+| passport_country | Texte | Pays du passeport |
 | passport_number | Texte | Numéro de passeport |
 
 ## FLIGHT
