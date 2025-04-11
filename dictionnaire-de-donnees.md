@@ -1,6 +1,6 @@
 # Dictionnaire de Données
 
-## Customer
+## CUSTOMER
 
 | Attribut | Type | Description |
 |----------|------|-------------|
@@ -10,7 +10,7 @@
 | phone_number | Texte | Numéro de téléphone du client |
 
 
-## Booking
+## BOOKING
 
 | Attribut | Type | Description |
 |----------|------|-------------|
