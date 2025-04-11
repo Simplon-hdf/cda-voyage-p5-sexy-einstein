@@ -20,7 +20,7 @@
 | booking_date | Date | Date de la réservation |
 | price | Entier | Prix total de la réservation |
 
-## PASSENGER
+## PERSON
 
 | Attribut | Type | Description |
 |----------|------|-------------|
