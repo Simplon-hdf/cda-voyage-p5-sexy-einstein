@@ -30,7 +30,7 @@
 | first_name | Texte | Prénom du passager |
 | last_name | Texte | Nom du passager |
 | date_of_birth | Date| Date de naissance du passager |
-| passport_country | Texte | Numéro de passeport |
+| passport_country | Texte | Pays du passeport |
 | passport_number | Texte | Numéro de passeport |
 
 ## FLIGHT
@@ -50,7 +50,7 @@
 |----------|------|-------------|
 | airport_id | UUID | Identifiant unique de l'aéroport |
 | name | Texte | Nom de l'aéroport |
-| adress | Texte | Adresse de l'aéroport |
+| address | Texte | Adresse de l'aéroport |
 | city_id | UUID | Identifiant de la ville associée |
 
 ## CITY
@@ -78,7 +78,7 @@
 | capacity | Entier | Capacité totale de l'avion |
 | airline_id | UUID | Identifiant de la compagnie aérienne associée |
 
-## ARLINE
+## AIRLINE
 
 | Attribut | Type | Description |
 |----------|------|-------------|
