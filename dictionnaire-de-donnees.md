@@ -5,8 +5,6 @@
 | Attribut | Type | Description |
 |----------|------|-------------|
 | customer_id | UUID | Identifiant unique du client |
-| first_name | Texte | Prénom du client |
-| last_name | Texte | Nom du client |
 | email | Texte | Adresse e-mail du client |
 | password | Texte | Mot de passe pour se connecter |
 | phone_number | Texte | Numéro de téléphone du client |
