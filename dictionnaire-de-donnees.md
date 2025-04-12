@@ -1,35 +1,35 @@
 # Dictionnaire de Données
 
-## Customer
+## CUSTOMER
 
 | Attribut | Type | Description |
 |----------|------|-------------|
 | customer_id | UUID | Identifiant unique du client |
-| first_name | Texte | Prénom du client |
-| last_name | Texte | Nom du client |
 | email | Texte | Adresse e-mail du client |
 | password | Texte | Mot de passe pour se connecter |
 | phone_number | Texte | Numéro de téléphone du client |
 
 
-## Booking
+## BOOKING
 
 | Attribut | Type | Description |
 |----------|------|-------------|
 | booking_id | UUID | Identifiant unique de la réservation |
+| public_code | Texte | Identifiant unique de la réservation pour le passager|
 | reference | Texte | Référence unique de la réservation |
 | customer_id | UUID | Identifiant du client associé |
+| passenger_id | UUID | Identifiant du passager associé |
 | booking_date | Date | Date de la réservation |
 | price | Entier | Prix total de la réservation |
 
-## PASSENGER
+## PERSON
 
 | Attribut | Type | Description |
 |----------|------|-------------|
-| passenger_id | UUID | Identifiant unique du passager |
-| first_name | Texte | Prénom du passager |
-| last_name | Texte | Nom du passager |
-| date_of_birth | Date| Date de naissance du passager |
+| person_id | UUID | Identifiant unique de la personne |
+| first_name | Texte | Prénom de la personne |
+| last_name | Texte | Nom de la personne |
+| date_of_birth | Date | Date de naissance de la personne |
 | passport_country | Texte | Pays du passeport |
 | passport_number | Texte | Numéro de passeport |
 
