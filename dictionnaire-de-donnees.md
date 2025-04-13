@@ -6,7 +6,7 @@
 |----------|------|-------------|
 | customer_id | UUID | Identifiant unique du client |
 | email | Texte | Adresse e-mail du client |
-| password | Texte | Mot de passe pour se connecter |
+| password | Texte | Empreinte du mot de passe du client |
 | phone_number | Texte | Numéro de téléphone du client |
 
 
