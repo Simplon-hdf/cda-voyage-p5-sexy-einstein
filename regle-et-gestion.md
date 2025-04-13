@@ -50,8 +50,8 @@
 - **RG36** : Un passager peut embarquer dans un vol.
 - **RG37** : Un passager doit avoir son nom sur son billet.
 - **RG38** : Un passager doit avoir son prénom sur son billet.
-- **RG39** : Un passager doit fournir sa date de naissance.
-- **RG40** : Un passager peut fournir son passeport.
+- **RG39** : Un passager doit avoir sa date de naissance fournie.
+- **RG40** : Un passager peut avoir son passeport fourni.
 - **RG41** : Un passager doit avoir une place unique.
 
 ---
@@ -75,7 +75,7 @@
 ## Aéroport
 
 - **RG48** : Un aéroport doit avoir une ville.
-- **RG49** : Un aéroport doitavoir une adresse.
+- **RG49** : Un aéroport doit avoir une adresse.
 - **RG50** : Un aéroport doit avoir un nom.
 - **RG51** : Un aéroport doit avoir des compagnies aériennes.
 - **RG52** : Un aéroport peut avoir des terminaux.
@@ -86,6 +86,6 @@
 
 - **RG53** : Un vol doit avoir une date et une heure de départ.
 - **RG54** : Un vol doit avoir une date et une heure d’arrivée.
-- **RG55** : Un vol doit avoit un avion le transportant.
+- **RG55** : Un vol doit avoit un avion correspondant.
 - **RG56** : Un vol doit être associé à un aéroport de départ et un aéroport d’arrivée.
 - **RG57** : Un vol doit avoir un nombre maximum de places disponibles.
