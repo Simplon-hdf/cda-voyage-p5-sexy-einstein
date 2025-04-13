@@ -69,6 +69,7 @@ CREATE TABLE Flight (
 -- Table Booking
 CREATE TABLE Booking (
     booking_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    public_code CHAR(7) NOT NULL,
     booking_date TIMESTAMP(0) NOT NULL,
     price MONEY NOT NULL,
     customer_id UUID NOT NULL REFERENCES Customer(customer_id),
