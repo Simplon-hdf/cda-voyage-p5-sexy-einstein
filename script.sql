@@ -33,7 +33,7 @@ CREATE TABLE Airline (
 CREATE TABLE Plane (
     plane_id SERIAL PRIMARY KEY,
     capacity SMALLINT NOT NULL,
-    registration VARCHAR(10) NOT NULL,
+    registration VARCHAR(10),
     airline_id INTEGER NOT NULL REFERENCES Airline(airline_id)
 );
 
