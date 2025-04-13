@@ -3,7 +3,7 @@
 ## Documentation
 
 - [Lexique](lexique.md) - Définition des termes métier
-- [Règles de Gestion](regle-et-gestion.md) - Liste des règles métier de l'application
+- [Règles de Gestion](regle-de-gestion.md) - Liste des règles métier de l'application
 - [Dictionnaire de Données](dictionnaire-de-donnees.md) - Structure des tables et attributs
 
 ## Modélisation de Données
