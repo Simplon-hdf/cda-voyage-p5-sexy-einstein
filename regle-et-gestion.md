@@ -20,72 +20,71 @@
 - **RG16** : Un client doit saisir un numéro de téléphone pour réserver.
 - **RG17** : Un client doit recevoir un e-mail au moment de la réservation.
 - **RG18** : Un client doit être connecté pour effectuer une réservation.
-- **RG19** : Un client doit saisir la nationalité du passager pour réserver.
 
 ---
 
 ## Réservation
 
-- **RG20** : Une réservation peut être créée.
-- **RG21** : Une réservation peut être annulée.
-- **RG22** : Une réservation peut être modifiée.
-- **RG23** : Une réservation peut être consultée.
-- **RG24** : Une réservation doit avoir une référence.
-- **RG25** : Une réservation doit être unique.
-- **RG26** : Une réservation est valide si des places sont disponibles.
-- **RG27** : Une réservation doit concerner un ou plusieurs vols (escales).
-- **RG28** : Une réservation peut inclure une ou plusieurs escales.
-- **RG29** : Une réservation doit être associée à un client existant.
-- **RG30** : Une réservation doit avoir un aéroport de départ.
-- **RG31** : Une réservation doit avoir un aéroport d’arrivée.
-- **RG32** : Une réservation doit inclure le choix d’une ou plusieurs places.
-- **RG33** : Une réservation doit avoir un prix.
-- **RG34** : Le client doit recevoir un e-mail contenant son billet après la réservation.
-- **RG35** : Une réservation ne peut pas être créée si le vol est complet.
+- **RG19** : Une réservation peut être créée.
+- **RG20** : Une réservation peut être annulée.
+- **RG21** : Une réservation peut être modifiée.
+- **RG22** : Une réservation peut être consultée.
+- **RG23** : Une réservation doit avoir une référence.
+- **RG24** : Une réservation doit être unique.
+- **RG25** : Une réservation est valide si des places sont disponibles.
+- **RG26** : Une réservation doit concerner un ou plusieurs vols (escales).
+- **RG27** : Une réservation peut inclure une ou plusieurs escales.
+- **RG28** : Une réservation doit être associée à un client existant.
+- **RG29** : Une réservation doit avoir un aéroport de départ.
+- **RG30** : Une réservation doit avoir un aéroport d’arrivée.
+- **RG31** : Une réservation doit inclure le choix d’une ou plusieurs places.
+- **RG32** : Une réservation doit avoir un prix.
+- **RG33** : Le client doit recevoir un e-mail contenant son billet après la réservation.
+- **RG34** : Une réservation ne peut pas être créée si le vol est complet.
 
 ---
 
 ## Passagers
 
-- **RG36** : Un passager peut embarquer dans un vol.
-- **RG37** : Un passager doit avoir son nom sur son billet.
-- **RG38** : Un passager doit avoir son prénom sur son billet.
-- **RG39** : Un passager doit avoir sa date de naissance fournie.
-- **RG40** : Un passager peut avoir son passeport fourni.
-- **RG41** : Un passager doit avoir une place unique.
+- **RG35** : Un passager peut embarquer dans un vol.
+- **RG36** : Un passager doit avoir son nom sur son billet.
+- **RG37** : Un passager doit avoir son prénom sur son billet.
+- **RG38** : Un passager doit avoir sa date de naissance fournie.
+- **RG39** : Un passager peut avoir son passeport fourni.
+- **RG40** : Un passager doit avoir une place unique.
 
 ---
 
 ## Compagnie Aérienne
 
-- **RG42** : Une compagnie aérienne doit avoir un nom.
-- **RG43** : Une compagnie aérienne doit mettre à disposition des informations concernant ses vols.
+- **RG41** : Une compagnie aérienne doit avoir un nom.
+- **RG42** : Une compagnie aérienne doit mettre à disposition des informations concernant ses vols.
 
 ---
 
 ## Avion
 
-- **RG44** : Un avion doit être associé à une compagnie aérienne.
-- **RG45** : Un avion doit proposer des places uniques.
-- **RG46** : Un avion doit avoir des réservations disponibles.
-- **RG47** : Un avion peut avoir une immatriculation.
+- **RG43** : Un avion doit être associé à une compagnie aérienne.
+- **RG44** : Un avion doit proposer des places uniques.
+- **RG45** : Un avion doit avoir des réservations disponibles.
+- **RG46** : Un avion peut avoir une immatriculation.
 
 ---
 
 ## Aéroport
 
-- **RG48** : Un aéroport doit avoir une ville.
-- **RG49** : Un aéroport doit avoir une adresse.
-- **RG50** : Un aéroport doit avoir un nom.
-- **RG51** : Un aéroport doit avoir des compagnies aériennes.
-- **RG52** : Un aéroport peut avoir des terminaux.
+- **RG47** : Un aéroport doit avoir une ville.
+- **RG48** : Un aéroport doit avoir une adresse.
+- **RG49** : Un aéroport doit avoir un nom.
+- **RG50** : Un aéroport doit avoir des compagnies aériennes.
+- **RG51** : Un aéroport peut avoir des terminaux.
 
 ---
 
 ## Vols
 
-- **RG53** : Un vol doit avoir une date et une heure de départ.
-- **RG54** : Un vol doit avoir une date et une heure d’arrivée.
-- **RG55** : Un vol doit avoit un avion correspondant.
-- **RG56** : Un vol doit être associé à un aéroport de départ et un aéroport d’arrivée.
-- **RG57** : Un vol doit avoir un nombre maximum de places disponibles.
+- **RG52** : Un vol doit avoir une date et une heure de départ.
+- **RG53** : Un vol doit avoir une date et une heure d’arrivée.
+- **RG54** : Un vol doit avoit un avion correspondant.
+- **RG55** : Un vol doit être associé à un aéroport de départ et un aéroport d’arrivée.
+- **RG56** : Un vol doit avoir un nombre maximum de places disponibles.
